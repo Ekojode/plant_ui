@@ -35,4 +35,5 @@ flutter:
   assets:
     - assets/
     - assets/onboarding/
+    - assets/products/
 

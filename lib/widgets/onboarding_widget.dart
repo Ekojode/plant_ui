@@ -45,7 +45,7 @@ class OnboardingWidget extends StatelessWidget {
         InkWell(
           onTap: () {
             if (i == 2) {
-              context.pushNamed(AppRouter.dashboard);
+              context.goNamed(AppRouter.dashboard);
             } else {
               pageController.animateToPage(i + 1,
                   duration: const Duration(milliseconds: 500),
